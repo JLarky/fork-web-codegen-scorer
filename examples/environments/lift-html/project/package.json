@@ -1,0 +1,27 @@
+{
+  "name": "lift-html-example",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/node": "^9.4.3",
+    "@astrojs/solid-js": "^5.1.1",
+    "@lift-html/core": "^0.0.4",
+    "@lift-html/incentive": "^0.0.1",
+    "@lift-html/solid": "^0.0.6",
+    "@tailwindcss/vite": "^4.1.13",
+    "astro": "^5.13.9",
+    "solid-js": "^1.9.9",
+    "tailwindcss": "^4.1.13"
+  },
+  "overrides": {
+    "vite": "^6.3.6"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,12 @@
+---
+export const prerender = false;
+
+import Layout from '../components/Layout.astro';
+---
+
+<Layout title="Astro">
+  <my-app fake-prop="fakeValue"></my-app>
+  <script>
+    import('../../src/components/app');
+  </script>
+</Layout>
