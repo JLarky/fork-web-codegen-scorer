@@ -8,7 +8,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/node": "^9.4.3",
     "@astrojs/solid-js": "^5.1.1",
     "@lift-html/core": "^0.0.4",
     "@lift-html/incentive": "^0.0.1",
