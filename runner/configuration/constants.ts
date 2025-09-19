@@ -45,4 +45,11 @@ export const BUILT_IN_ENVIRONMENTS = new Map<string, string>([
     'solid-example',
     join(import.meta.dirname, '../../examples/environments/solid/config.js'),
   ],
+  [
+    'lift-html-example',
+    join(
+      import.meta.dirname,
+      '../../examples/environments/lift-html/config.mjs'
+    ),
+  ],
 ]);
