@@ -53,6 +53,7 @@
   "dependencies": {
     "@anthropic-ai/sdk": "^0.56.0",
     "@axe-core/puppeteer": "^4.10.2",
+    "@clack/prompts": "^0.11.0",
     "@genkit-ai/compat-oai": "^1.19.1",
     "@genkit-ai/googleai": "1.19.1",
     "@genkit-ai/mcp": "1.19.1",
@@ -79,8 +80,8 @@
     "p-queue": "^8.1.0",
     "puppeteer": "^24.10.1",
     "sass": "^1.89.2",
-    "stylelint": "^16.21.1",
     "strict-csp": "^1.1.1",
+    "stylelint": "^16.21.1",
     "stylelint-config-recommended-scss": "^16.0.0",
     "tinyglobby": "^0.2.14",
     "tsx": "^4.20.3",
