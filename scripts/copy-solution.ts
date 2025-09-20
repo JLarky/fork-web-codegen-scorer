@@ -7,8 +7,6 @@ import { join } from 'node:path';
 
 intro('Report Previewer');
 
-let i = 0;
-
 const s = spinner();
 
 const dirname = join(import.meta.dirname, '..');
@@ -62,10 +60,6 @@ while (true) {
   let previousRun = '';
 
   while (selectingRun) {
-    if (i++ > 10) {
-      console.error('Too many iterations');
-      process.exit(1);
-    }
     const runDir = [] as string[];
 
     for await (const entry of glob(selectedReport + '/*/*/'))
@@ -105,4 +99,6 @@ while (true) {
     });
     s.stop(`Solution ${selectedRun} copied into ${tmpDir}`);
   }
+
+  await new Promise((resolve) => setTimeout(resolve, 100));
 }
